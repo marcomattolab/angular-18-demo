@@ -1,0 +1,12 @@
+
+<!-- STATUS CHAT -->
+@if (message?.status) {
+  <div class="heroes-menu">
+    <a>
+       {{message?.status}}
+    </a>
+  </div>    
+}
+@else {
+  <div class="heroes-menu">Reload Page</div>
+}
