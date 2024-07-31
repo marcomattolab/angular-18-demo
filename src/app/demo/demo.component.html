@@ -1,0 +1,25 @@
+
+
+<div class="card text-center" >
+  <!--Search city input -->
+  <div class="card-header">
+    <input
+      class="form-control"
+      type="text"placeholder="Search City" [formControl]="cityInput" />
+  </div>
+
+  <div *ngIf="meteo && !meteo.error">
+    
+    <!--Weather Icon-->
+    <div class="title-bar">
+      {{meteo.temperature}}°
+      <img [src]="meteo.icon" alt="icon" />
+    </div>
+    
+  </div>
+  
+  <div *ngIf="meteo?.error">
+    No city found
+  </div>
+
+</div>

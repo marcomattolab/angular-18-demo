@@ -1,0 +1,27 @@
+
+input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5em 0.25em;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 0 0 1em 0.25em rgba(0, 0, 0, 0.2);
+  }
+  .card {
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 0.5rem;
+    text-align: center;
+    background: white;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .title-bar {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
